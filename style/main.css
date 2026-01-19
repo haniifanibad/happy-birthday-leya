@@ -109,11 +109,14 @@ body {
 }
 
 .six .hat {
-  left: 41.5%;
   position: absolute;
-  /* transform: scale(0.1); */
-  top: -35%;
   width: 80px;
+
+  top: -5%;          /* turun dari -35% */
+  left: 50%;         /* geser ke tengah wajah */
+
+  transform: translateX(-50%) rotate(-12deg);
+  z-index: 2;
 }
 
 .baloons img {
