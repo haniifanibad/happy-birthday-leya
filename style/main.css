@@ -105,17 +105,17 @@ body {
   display: inline-block;
   height: 350px;
   max-width: 100%;
-  /* height: auto; */
 }
 
 .six .hat {
   position: absolute;
   width: 80px;
-
-  top: -5%;          /* turun dari -35% */
-  left: 50%;         /* geser ke tengah wajah */
-
-  transform: translateX(-50%) rotate(-12deg);
+  
+  top: -190px;           /* jarak dari atas container */
+  left: 200px;
+  margin-left: 20px;         
+  
+  transform: rotate(-20deg);
   z-index: 2;
 }
 
