@@ -107,18 +107,6 @@ body {
   max-width: 100%;
 }
 
-.six .hat {
-  position: absolute;
-  width: 80px;
-  
-  top: -190px;           /* jarak dari atas container */
-  left: 700px;
-  margin-left: 20px;         
-  
-  transform: rotate(-20deg);
-  z-index: 2;
-}
-
 .baloons img {
   display: inline-block;
   position: absolute;
